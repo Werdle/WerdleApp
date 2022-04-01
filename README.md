@@ -1,3 +1,6 @@
+Original App Design Project - README Template
+===
+
 # Werdle
 
 ## Table of Contents
@@ -8,19 +11,19 @@
 
 ## Overview
 ### Description
-[Description of your app] 
+
 It is a game that generates a word where users will have to guess what the word is within 6 tries. After each attempt, a hint will be given based on the orientation and selection of letters they've used in the attempt. If they've guessed the word correctly within the given attempts, they will move up a rank. Users will have to create an account in order to save what their rank is.
 
 
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+
 - **Category:** Games
-- **Mobile:** iOS
-- **Story:** 
-- **Market:**
-- **Habit:** Daily 
-- **Scope:** 
+- **Mobile:** This app would be played on mobile, but could potentially be implemented as a web app.
+- **Story:** Users will atempt to guess the word within six tries. If they succeed they will move up in rankings.
+- **Market:** This app is intended for everyone of all ages.
+- **Habit:** Users will decide how often they want to use the app and play the game.
+- **Scope:** Our app will initially support singleplayer, could can be scaled up to become a multi-player application where users can compete with other users.
 
 ## Product Spec
 
@@ -28,37 +31,47 @@ It is a game that generates a word where users will have to guess what the word 
 
 **Required Must-have Stories**
 
-* Users can log in
-* Users can sign up
-* Users can view game page to play the game
+* User can log in
+* User can sign up for an account
+* User can view game page to play the game
+* User can view their ranking
 
 **Optional Nice-to-have Stories**
 
-* Users can view leaderboard to see how they compare against other users
+* User can view leaderboard to see how they compare against other users
+* 
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Sign up
+   * User can sign up for an account
+* Sign in
+   * User can sign in
+* Game Page
+   * User can view game page to play the game
+   * User can view their ranking
+
+
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* logout
-* rank
-* back to game from the rank page
+* rank screen
+* back to game screen from the rank page
 
 **Flow Navigation** (Screen to Screen)
 
 * login
    * game screen
 * game screen
-    * log out
+   * log out
+* login
+   * register screen
+   
+      
+      
+      
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
