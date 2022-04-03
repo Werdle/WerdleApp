@@ -75,7 +75,7 @@ It is a game that generates a word where users will have to guess what the word 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="http://g.recordit.co/B51Ds2ehds.gif" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
