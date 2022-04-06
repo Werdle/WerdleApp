@@ -105,7 +105,9 @@ It is a game that generates a word where users will have to guess what the word 
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
 - Sign Up Screen
-````
+    - (CREATE/POST) Sends username and password and adds it to the database to create a new user
+
+```
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
         user.username = usernameField.text!
@@ -119,8 +121,12 @@ It is a game that generates a word where users will have to guess what the word 
             }
         }
     }
-````
+```
+    
+
+
 - Sign In Screen
+    - (READ/GET) Sends username and password and checks to make sure that user account exists and that credentials are correct.
 ````
 @IBAction func onSignIn(_ sender: Any) {
         let username = usernameField.text!
@@ -139,3 +145,6 @@ It is a game that generates a word where users will have to guess what the word 
 ````
 - Game Screen
     - (Read/GET) Queries word for assocated rank based on user's rank
+
+
+
