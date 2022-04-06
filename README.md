@@ -43,9 +43,8 @@ It is a game that generates a word where users will have to guess what the word 
 
 ### 2. Screen Archetypes
 
-* Sign up
+* Sign In/ Sign Up Page
    * User can sign up for an account
-* Sign in
    * User can sign in
 * Game Page
    * User can view game page to play the game
@@ -62,20 +61,16 @@ It is a game that generates a word where users will have to guess what the word 
 
 **Flow Navigation** (Screen to Screen)
 
-* login
+* login/signup screen
    * game screen
 * game screen
-   * log out
-* login
-   * register screen
-   
-      
+   * login/signup screen
+
       
       
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="http://g.recordit.co/B51Ds2ehds.gif" width=600>
+<img src="https://i.imgur.com/oWbzsx6.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -104,8 +99,9 @@ It is a game that generates a word where users will have to guess what the word 
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
-- Sign Up Screen
+- Sign In/Sign Up Screen
     - (CREATE/POST) Sends username and password and adds it to the database to create a new user
+    - (READ/GET) Sends username and password and checks to make sure that user account exists and that credentials are correct.
 
 ```
     @IBAction func onSignUp(_ sender: Any) {
@@ -124,9 +120,6 @@ It is a game that generates a word where users will have to guess what the word 
 ```
     
 
-
-- Sign In Screen
-    - (READ/GET) Sends username and password and checks to make sure that user account exists and that credentials are correct.
 ````
 @IBAction func onSignIn(_ sender: Any) {
         let username = usernameField.text!
@@ -145,6 +138,4 @@ It is a game that generates a word where users will have to guess what the word 
 ````
 - Game Screen
     - (Read/GET) Queries word for assocated rank based on user's rank
-
-
 
