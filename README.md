@@ -81,11 +81,61 @@ It is a game that generates a word where users will have to guess what the word 
 
 ### [BONUS] Interactive Prototype
 
+
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 [Add table of models]
+**User**
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| username | String   | unique id for the user to login   |
+| password | String   | a password created by the user to log into their game|
+| rank |int  | Holds the highest rank that the user has reached in the game |
+
+### Ranks
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| rankid | Int  | unique id for each rank |
+| word | String  | The 5-letter word associated with the rank |
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+- Sign Up Screen
+````
+    @IBAction func onSignUp(_ sender: Any) {
+        let user = PFUser()
+        user.username = usernameField.text!
+        user.password = passwordField.text!
+        
+        user.signUpInBackground { (success, error) in
+            if success {
+                self.performSegue(withIdentifier: "LoginSegue", sender: nil)
+            } else {
+                print("Error: \(error?.localizedDescription).")
+            }
+        }
+    }
+````
+- Sign In Screen
+````
+@IBAction func onSignIn(_ sender: Any) {
+        let username = usernameField.text!
+        let password = passwordField.text!
+        
+        PFUser.logInWithUsername(inBackground: username, password: password)
+        {
+            (user, error) in
+            if user != nil {
+                self.performSegue(withIdentifier: "LoginSegue", sender: nil)
+            } else {
+                print("Error: \(error?.localizedDescription)")
+            }
+        }
+    }
+````
+- Game Screen
+    - (Read/GET) Queries word for assocated rank based on user's rank
