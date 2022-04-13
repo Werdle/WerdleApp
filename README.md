@@ -31,10 +31,11 @@ It is a game that generates a word where users will have to guess what the word 
 
 **Required Must-have Stories**
 
-* User can log in
-* User can sign up for an account
-* User can view game page to play the game
-* User can view their ranking
+- [X] * User can log in
+- [X] * User can sign up for an account
+- <img src = "https://i.imgur.com/Eavt2vA.gif" width=600>
+- [ ] * User can view game page to play the game
+- [ ] * User can view their ranking
 
 **Optional Nice-to-have Stories**
 
@@ -43,7 +44,7 @@ It is a game that generates a word where users will have to guess what the word 
 
 ### 2. Screen Archetypes
 
-* Sign In/ Sign Up Page
+- [X]  Sign In/ Sign Up Page
    * User can sign up for an account
    * User can sign in
 * Game Page
@@ -66,6 +67,8 @@ It is a game that generates a word where users will have to guess what the word 
 * game screen
    * login/signup screen
 
+   
+      
       
       
 
