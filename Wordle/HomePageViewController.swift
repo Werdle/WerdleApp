@@ -1,13 +1,13 @@
 //
-//  HomePageViewController.swift
+//  HomepageViewController.swift
 //  Wordle
 //
-//  Created by Abir T on 4/2/22.
+//  Created by Kan Wang on 4/12/22.
 //
 
 import UIKit
 
-class HomePageViewController: UIViewController {
+class HomepageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

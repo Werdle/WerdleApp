@@ -19,7 +19,7 @@
 		882FEA3227F8909400055021 /* WordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FEA3127F8909400055021 /* WordleUITests.swift */; };
 		882FEA3427F8909400055021 /* WordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FEA3327F8909400055021 /* WordleUITestsLaunchTests.swift */; };
 		886C98E927F89AD3006F8A31 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C98E827F89AD3006F8A31 /* LoginViewController.swift */; };
-		886C98EB27F89B0F006F8A31 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C98EA27F89B0F006F8A31 /* HomePageViewController.swift */; };
+		AE0E92B128065BEB00F19FA8 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E92B028065BEB00F19FA8 /* HomepageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		882FEA3127F8909400055021 /* WordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleUITests.swift; sourceTree = "<group>"; };
 		882FEA3327F8909400055021 /* WordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		886C98E827F89AD3006F8A31 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		886C98EA27F89B0F006F8A31 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		9F88E341AD2190CDA51434AB /* Pods-Wordle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordle.debug.xcconfig"; path = "Target Support Files/Pods-Wordle/Pods-Wordle.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0E92B028065BEB00F19FA8 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		C9E27FC52B87317FDDAA56E1 /* Pods_Wordle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wordle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0CBACD291E66B4DED031D2 /* Pods-Wordle-WordleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordle-WordleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wordle-WordleUITests/Pods-Wordle-WordleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E13F78912ADF68F46E9DF4CD /* Pods-Wordle-WordleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordle-WordleUITests.release.xcconfig"; path = "Target Support Files/Pods-Wordle-WordleUITests/Pods-Wordle-WordleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,11 +144,11 @@
 				882FEA1027F8909100055021 /* AppDelegate.swift */,
 				882FEA1227F8909100055021 /* SceneDelegate.swift */,
 				886C98E827F89AD3006F8A31 /* LoginViewController.swift */,
+				AE0E92B028065BEB00F19FA8 /* HomepageViewController.swift */,
 				882FEA1627F8909100055021 /* Main.storyboard */,
 				882FEA1927F8909400055021 /* Assets.xcassets */,
 				882FEA1B27F8909400055021 /* LaunchScreen.storyboard */,
 				882FEA1E27F8909400055021 /* Info.plist */,
-				886C98EA27F89B0F006F8A31 /* HomePageViewController.swift */,
 			);
 			path = Wordle;
 			sourceTree = "<group>";
@@ -409,7 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				886C98EB27F89B0F006F8A31 /* HomePageViewController.swift in Sources */,
+				AE0E92B128065BEB00F19FA8 /* HomepageViewController.swift in Sources */,
 				886C98E927F89AD3006F8A31 /* LoginViewController.swift in Sources */,
 				882FEA1127F8909100055021 /* AppDelegate.swift in Sources */,
 				882FEA1327F8909100055021 /* SceneDelegate.swift in Sources */,
