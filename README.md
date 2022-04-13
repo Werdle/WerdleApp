@@ -33,7 +33,7 @@ It is a game that generates a word where users will have to guess what the word 
 
 - [X] * User can log in
 - [X] * User can sign up for an account
-- <img src = "https://i.imgur.com/Eavt2vA.gif" width=600>
+- <img src = "https://i.imgur.com/Eavt2vA.gif" width=200>
 - [ ] * User can view game page to play the game
 - [ ] * User can view their ranking
 
