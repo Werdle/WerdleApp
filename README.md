@@ -36,10 +36,11 @@ It is a game that generates a word where users will have to guess what the word 
 -  <img src = "https://i.imgur.com/Eavt2vA.gif" width=200>
 - [x] * User can view game page to play the game
 - <img src = "https://i.imgur.com/YkuGwJq.png" width=200>
-- [ ] * User can view their ranking
+-
 
 **Optional Nice-to-have Stories**
 
+* User can view their rankings
 * User can view leaderboard to see how they compare against other users
 * 
 
