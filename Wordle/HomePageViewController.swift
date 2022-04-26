@@ -9,7 +9,7 @@ import UIKit
 
 class HomepageViewController: UIViewController {
     let answers = [
-            "later", "bloke", "there", "ultra"
+            "askew", "epoxy", "heist", "olive", "bytes", "flask", "polar", "elite"
         ]
 
         var answer = ""
