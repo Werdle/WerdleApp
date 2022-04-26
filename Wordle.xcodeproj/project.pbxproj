@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		20DA864581C70E880782287B /* Pods_Wordle_WordleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187BF25669325F6E362269AE /* Pods_Wordle_WordleUITests.framework */; };
 		256D921CE7776374E75A7B99 /* Pods_WordleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2AC035121B4489040D3F5A /* Pods_WordleTests.framework */; };
+		4806F68C2815B6B6003CE882 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806F68B2815B6B6003CE882 /* KeyboardViewController.swift */; };
+		4806F68F2815B6D1003CE882 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806F68E2815B6D1003CE882 /* BoardViewController.swift */; };
+		4806F6912817632B003CE882 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806F6902817632B003CE882 /* KeyCell.swift */; };
 		7BCA303EDF15E1A3A3E506C1 /* Pods_Wordle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E27FC52B87317FDDAA56E1 /* Pods_Wordle.framework */; };
 		882FEA1127F8909100055021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FEA1027F8909100055021 /* AppDelegate.swift */; };
 		882FEA1327F8909100055021 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FEA1227F8909100055021 /* SceneDelegate.swift */; };
@@ -42,6 +45,9 @@
 /* Begin PBXFileReference section */
 		187BF25669325F6E362269AE /* Pods_Wordle_WordleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wordle_WordleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E58E54EA214B31EBB2B0296 /* Pods-WordleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordleTests.debug.xcconfig"; path = "Target Support Files/Pods-WordleTests/Pods-WordleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4806F68B2815B6B6003CE882 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		4806F68E2815B6D1003CE882 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		4806F6902817632B003CE882 /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
 		821E0D284311B920B4B87C68 /* Pods-Wordle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordle.release.xcconfig"; path = "Target Support Files/Pods-Wordle/Pods-Wordle.release.xcconfig"; sourceTree = "<group>"; };
 		852F6C60F826545C589A1ABF /* Pods-WordleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordleTests.release.xcconfig"; path = "Target Support Files/Pods-WordleTests/Pods-WordleTests.release.xcconfig"; sourceTree = "<group>"; };
 		882FEA0D27F8909100055021 /* Wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,9 @@
 				882FEA1927F8909400055021 /* Assets.xcassets */,
 				882FEA1B27F8909400055021 /* LaunchScreen.storyboard */,
 				882FEA1E27F8909400055021 /* Info.plist */,
+				4806F68B2815B6B6003CE882 /* KeyboardViewController.swift */,
+				4806F68E2815B6D1003CE882 /* BoardViewController.swift */,
+				4806F6902817632B003CE882 /* KeyCell.swift */,
 			);
 			path = Wordle;
 			sourceTree = "<group>";
@@ -410,9 +419,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE0E92B128065BEB00F19FA8 /* HomepageViewController.swift in Sources */,
+				4806F6912817632B003CE882 /* KeyCell.swift in Sources */,
+				4806F68C2815B6B6003CE882 /* KeyboardViewController.swift in Sources */,
 				886C98E927F89AD3006F8A31 /* LoginViewController.swift in Sources */,
 				882FEA1127F8909100055021 /* AppDelegate.swift in Sources */,
 				882FEA1327F8909100055021 /* SceneDelegate.swift in Sources */,
+				4806F68F2815B6D1003CE882 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
