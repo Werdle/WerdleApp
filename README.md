@@ -36,6 +36,7 @@ It is a game that generates a word where users will have to guess what the word 
 -  <img src = "https://i.imgur.com/Eavt2vA.gif" width=200>
 - [x] * User can view game page to play the game
 - <img src = "https://i.imgur.com/YkuGwJq.png" width=200>
+- <img src = "https://recordit.co/GgVcm1E3xW" width=200>
 -
 
 **Optional Nice-to-have Stories**
