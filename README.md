@@ -50,7 +50,7 @@ It is a game that generates a word where users will have to guess what the word 
 - [X]  Sign In/ Sign Up Page
    * User can sign up for an account
    * User can sign in
-* Game Page
+[X] Game Page
    * User can view game page to play the game
    * User can view their ranking
 
